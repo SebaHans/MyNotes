@@ -79,9 +79,9 @@ public class Book
             //Print chapter titles
             PrintChapters();
 
-            Console.WriteLine("\nEnter a chapter title (or 'quit/q/exit' to exit):");
+            Console.WriteLine("\nEnter a chapter title (or 'q' to exit):");
             string input = Console.ReadLine();
-            if (input.ToLower() == "quit" || input.ToLower() == "q" || input.ToLower() == "exit")
+            if (input.ToLower() == "q")
             {
                 break;
             }
