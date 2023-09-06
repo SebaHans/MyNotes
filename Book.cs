@@ -59,7 +59,7 @@ public class Book
         foreach (char letter in text)
         {
             Console.Write(letter);
-            Thread.Sleep(1);
+            Thread.Sleep(0);
         }
     }
 
