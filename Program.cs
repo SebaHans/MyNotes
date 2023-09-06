@@ -7,17 +7,17 @@ Chapter chapter1 = new Chapter ("vars");
 Chapter chapter2 = new Chapter ("bdt");
 Chapter chapter3 = new Chapter ("conds");
 Chapter chapter4 = new Chapter ("arra");
+Chapter chapter5 = new Chapter ("loops");
 chapters.Add (chapter1);
 chapters.Add (chapter2);
 chapters.Add (chapter3);
 chapters.Add (chapter4);
+chapters.Add (chapter5);
 
 
 Page Vside1 = new Page(MyNotes.VariablesPageOne);
 Page Vside2 = new Page(MyNotes.VariablesPageTwo);
 Page Vside3 = new Page(MyNotes.VariablesPageThree);
-
-
 
 chapter1.Pages.Add(Vside1);
 chapter1.Pages.Add(Vside2);
@@ -34,6 +34,7 @@ chapter2.Pages.Add(Bside2);
 chapter2.Pages.Add(Bside3);
 chapter2.Pages.Add(Bside4);
 
+
 Page Cside1 = new Page (MyNotes.ConditionalsPageOne);
 Page Cside2 = new Page (MyNotes.ConditionalsPageTwo);
 Page Cside3 = new Page (MyNotes.ConditionalsPageThree);
@@ -46,6 +47,7 @@ chapter3.Pages.Add(Cside3);
 chapter3.Pages.Add(Cside4);
 chapter3.Pages.Add(Cside5);
 
+
 Page Aside1 = new Page (MyNotes.ArraysPageOne);
 Page Aside2 = new Page (MyNotes.ArraysPageTwo);
 Page Aside3 = new Page (MyNotes.ArraysPageThree);
@@ -54,6 +56,13 @@ chapter4.Pages.Add(Aside1);
 chapter4.Pages.Add(Aside2);
 chapter4.Pages.Add(Aside3);
 
+Page Lside1 = new Page (MyNotes.LoopsPageOne);
+Page Lside2 = new Page (MyNotes.LoopsPageTwo);
+Page Lside3 = new Page (MyNotes.LoopsPageThree);
+
+chapter5.Pages.Add(Lside1);
+chapter5.Pages.Add(Lside2);
+chapter5.Pages.Add(Lside3);
 
 mybook.Chapters = chapters;
 mybook.Start();

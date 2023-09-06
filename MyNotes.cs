@@ -75,4 +75,20 @@ public static string ArraysPageThree =
 A3
 ";
 
+public static string LoopsPageOne =
+@"...
+L1
+";
+
+public static string LoopsPageTwo =
+@"...
+L2
+"; 
+public static string LoopsPageThree =
+@"...
+L3
+";
+
+
+
 }
