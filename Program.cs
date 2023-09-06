@@ -18,15 +18,16 @@ chapters.Add (chapter5);
 chapters.Add (chapter6);
 chapters.Add (chapter7);
 
-List<Page> pages= new List<Page> ();
-
+List<Page> Vside = new List<Page> ();
 Page Vside1 = new Page(MyNotes.VariablesPageOne);
 Page Vside2 = new Page(MyNotes.VariablesPageTwo);
 Page Vside3 = new Page(MyNotes.VariablesPageThree);
-
 chapter1.Pages.Add(Vside1);
 chapter1.Pages.Add(Vside2);
 chapter1.Pages.Add(Vside3);
+Vside.Add (Vside1);
+Vside.Add (Vside2);
+Vside.Add (Vside3);
 
 
 Page Bside1 = new Page (MyNotes.BasicDataTypesPageOne);
