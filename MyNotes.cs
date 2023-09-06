@@ -14,8 +14,10 @@ E
 ";
 
 public static string BasicDataTypesPageOne = 
-@"...";
+@"...
+";
 
 public static string BasicDataTypesPageTwo = 
-@"...";
+@"...
+";
 }

@@ -10,9 +10,10 @@ kap1.Read();
 
 Chapter kap2 = new Chapter("BDT");
 
-Page side1 = new Page (MyNotes.BasicDataTypesPageOne);
+Page side3 = new Page (MyNotes.BasicDataTypesPageOne);
+Page side4 = new Page (MyNotes.BasicDataTypesPageTwo);
 
-kap2.Pages.Add(side1);
-kap2.Pages.Add(side2);
+kap2.Pages.Add(side3);
+kap2.Pages.Add(side4);
 
 kap2.Read();
