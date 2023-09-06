@@ -88,7 +88,21 @@ public static string LoopsPageThree =
 @"...
 L3
 ";
-
-
+public static string LoopsPageFour =
+@"...
+L4
+";
+public static string LoopsPageFive =
+@"...
+L5
+";
+public static string LoopsPageSix =
+@"...
+L6
+";
+public static string LoopsPageSeven =
+@"...
+L7
+";
 
 }

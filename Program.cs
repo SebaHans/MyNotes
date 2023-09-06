@@ -59,10 +59,18 @@ chapter4.Pages.Add(Aside3);
 Page Lside1 = new Page (MyNotes.LoopsPageOne);
 Page Lside2 = new Page (MyNotes.LoopsPageTwo);
 Page Lside3 = new Page (MyNotes.LoopsPageThree);
+Page Lside4 = new Page (MyNotes.LoopsPageFour);
+Page Lside5 = new Page (MyNotes.LoopsPageFive);
+Page Lside6 = new Page (MyNotes.LoopsPageSix);
+Page Lside7 = new Page (MyNotes.LoopsPageSeven);
 
 chapter5.Pages.Add(Lside1);
 chapter5.Pages.Add(Lside2);
 chapter5.Pages.Add(Lside3);
+chapter5.Pages.Add(Lside4);
+chapter5.Pages.Add(Lside5);
+chapter5.Pages.Add(Lside6);
+chapter5.Pages.Add(Lside7);
 
 mybook.Chapters = chapters;
 mybook.Start();
