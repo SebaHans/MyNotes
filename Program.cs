@@ -1,4 +1,6 @@
-﻿Book mybook = new Book("My Notes");
+﻿static void{}
+
+Book mybook = new Book("My Notes");
 mybook.Chapters.Add(kap1);
 mybook.Start();
 
