@@ -9,12 +9,14 @@ Chapter chapter3 = new Chapter ("conds");
 Chapter chapter4 = new Chapter ("arra");
 Chapter chapter5 = new Chapter ("loops");
 Chapter chapter6 = new Chapter ("Meth");
+Chapter chapter7 = new Chapter ("OOP");
 chapters.Add (chapter1);
 chapters.Add (chapter2);
 chapters.Add (chapter3);
 chapters.Add (chapter4);
 chapters.Add (chapter5);
 chapters.Add (chapter6);
+chapters.Add (chapter7);
 
 
 Page Vside1 = new Page(MyNotes.VariablesPageOne);
@@ -82,6 +84,17 @@ Page Mside2 = new Page (MyNotes.MethodsPageTwo);
 chapter6.Pages.Add(Mside1);
 chapter6.Pages.Add(Mside2);
 
+Page Oside1 = new Page (MyNotes.OOPPageOne);
+Page Oside2 = new Page (MyNotes.OOPPageTwo);
+Page Oside3 = new Page (MyNotes.OOPPageThree);
+Page Oside4 = new Page (MyNotes.OOPPageFour);
+Page Oside5 = new Page (MyNotes.OOPPageFive);
+
+chapter7.Pages.Add(Oside1);
+chapter7.Pages.Add(Oside2);
+chapter7.Pages.Add(Oside3);
+chapter7.Pages.Add(Oside4);
+chapter7.Pages.Add(Oside5);
 
 mybook.Chapters = chapters;
 mybook.Start();
