@@ -33,10 +33,15 @@ chapter2.Pages.Add(Bside4);
 
 Page Cside1 = new Page (MyNotes.ConditionalsPageOne);
 Page Cside2 = new Page (MyNotes.ConditionalsPageTwo);
+Page Cside3 = new Page (MyNotes.ConditionalsPageThree);
+Page Cside4 = new Page (MyNotes.ConditionalsPageFour);
+Page Cside5 = new Page (MyNotes.ConditionalsPageFive);
 
 chapter3.Pages.Add(Cside1);
 chapter3.Pages.Add(Cside2);
-
+chapter3.Pages.Add(Cside3);
+chapter3.Pages.Add(Cside4);
+chapter3.Pages.Add(Cside5);
 
 mybook.Chapters = chapters;
 mybook.Start();

@@ -45,4 +45,19 @@ public static string ConditionalsPageTwo =
 C2
 ";
 
+public static string ConditionalsPageThree = 
+@"...
+C3
+";
+
+public static string ConditionalsPageFour = 
+@"...
+C4
+";
+
+public static string ConditionalsPageFive = 
+@"...
+C5
+";
+
 }
