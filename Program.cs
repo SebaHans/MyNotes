@@ -23,3 +23,7 @@ kap2.Pages.Add(side4);
 
 List<Chapter> chapters = new List<Chapter> ();
 Chapter chapter1 = new Chapter ("vars", pages);
+Chapter chapter2 = new Chapter ("BDT",pages);
+chapters.Add (chapter1);
+
+
