@@ -104,5 +104,33 @@ public static string LoopsPageSeven =
 @"...
 L7
 ";
+public static string MethodsPageOne =
+@"...
+M1
+";
+public static string MethodsPageTwo =
+@"...
+M2
+";
+public static string OOPPageOne =
+@"...
+O1
+";
 
+public static string OOPPageTwo =
+@"...
+O2
+";
+public static string OOPPageThree =
+@"...
+O3
+";
+public static string OOPPageFour =
+@"...
+O4
+";
+public static string OOPPageFive =
+@"...
+O5
+";
 }
