@@ -22,8 +22,8 @@ Chapter kap2 = new Chapter("BDT");
 Page side3 = new Page (MyNotes.BasicDataTypesPageOne);
 Page side4 = new Page (MyNotes.BasicDataTypesPageTwo);
 
-kap2.Pages.Add(side3);
-kap2.Pages.Add(side4);
+chapter2.Pages.Add(side3);
+chapter2.Pages.Add(side4);
 
 
 mybook.Chapters = chapters;
