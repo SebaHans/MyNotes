@@ -1,8 +1,6 @@
 ﻿
 
 Book mybook = new Book("My Notes");
-mybook.Chapters.Add(kap1);
-mybook.Start();
 
 Page side1 = new Page(MyNotes.VariablesPageOne);
 Page side2 = new Page(MyNotes.VariablesPageTwo);
@@ -26,4 +24,4 @@ Chapter chapter1 = new Chapter ("vars", pages);
 Chapter chapter2 = new Chapter ("BDT",pages);
 chapters.Add (chapter1);
 
-
+mybook.Start
