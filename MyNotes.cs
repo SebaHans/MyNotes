@@ -25,6 +25,16 @@ public static string BasicDataTypesPageTwo =
 BDT 2
 ";
 
+public static string BasicDataTypesPageThree = 
+@"...
+BDT 3
+";
+
+public static string BasicDataTypesPageFour = 
+@"...
+BDT 4
+";
+
 public static string ConditionalsPageOne = 
 @"...
 C1

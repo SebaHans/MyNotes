@@ -23,9 +23,13 @@ chapter1.Pages.Add(Vside3);
 
 Page Bside1 = new Page (MyNotes.BasicDataTypesPageOne);
 Page Bside2 = new Page (MyNotes.BasicDataTypesPageTwo);
+Page Bside3 = new Page (MyNotes.BasicDataTypesPageThree);
+Page Bside4 = new Page (MyNotes.BasicDataTypesPageFour);
 
 chapter2.Pages.Add(Bside1);
 chapter2.Pages.Add(Bside2);
+chapter2.Pages.Add(Bside3);
+chapter2.Pages.Add(Bside4);
 
 Page Cside1 = new Page (MyNotes.ConditionalsPageOne);
 Page Cside2 = new Page (MyNotes.ConditionalsPageTwo);
