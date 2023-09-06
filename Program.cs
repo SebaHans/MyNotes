@@ -6,9 +6,12 @@ List<Chapter> chapters = new List<Chapter> ();
 Chapter chapter1 = new Chapter ("vars");
 Chapter chapter2 = new Chapter ("bdt");
 Chapter chapter3 = new Chapter ("conds");
+Chapter chapter4 = new Chapter ("arra");
 chapters.Add (chapter1);
 chapters.Add (chapter2);
 chapters.Add (chapter3);
+chapters.Add (chapter4);
+
 
 Page Vside1 = new Page(MyNotes.VariablesPageOne);
 Page Vside2 = new Page(MyNotes.VariablesPageTwo);
@@ -42,6 +45,15 @@ chapter3.Pages.Add(Cside2);
 chapter3.Pages.Add(Cside3);
 chapter3.Pages.Add(Cside4);
 chapter3.Pages.Add(Cside5);
+
+Page Aside1 = new Page (MyNotes.ArraysPageOne);
+Page Aside2 = new Page (MyNotes.ArraysPageTwo);
+Page Aside3 = new Page (MyNotes.ArraysPageThree);
+
+chapter4.Pages.Add(Aside1);
+chapter4.Pages.Add(Aside2);
+chapter4.Pages.Add(Aside3);
+
 
 mybook.Chapters = chapters;
 mybook.Start();

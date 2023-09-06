@@ -60,4 +60,19 @@ public static string ConditionalsPageFive =
 C5
 ";
 
+public static string ArraysPageOne = 
+@"...
+A1
+";
+
+public static string ArraysPageTwo = 
+@"...
+A2
+";
+
+public static string ArraysPageThree =
+@"...
+A3
+";
+
 }
