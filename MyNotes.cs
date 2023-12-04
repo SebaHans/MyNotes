@@ -136,4 +136,22 @@ public static string OOPPageFive =
 @"...
 O5
 ";
+
+public static string Nest1 =
+@"
+Welcome back to the Nest, Raven.
+It has been a while.
+";
+
+public static string Nest2 =
+@"
+Your AC is being dusted off, prepare yourself for sortie.
+This request comes from the Federation, they need you to infiltrate Oveerseers territory and destroy their HQ.
+";
+
+public static string Nest3 =
+@"
+Whipe out everything.
+Leave no survivors.
+";
 }
