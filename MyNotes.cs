@@ -146,7 +146,8 @@ It has been a while.
 public static string Nest2 =
 @"
 Your AC is being dusted off, prepare yourself for sortie.
-This request comes from the Federation, they need you to infiltrate Overseers territory and destroy their HQ.
+This request comes from the Federation, they need you to infiltrate Overseer territory and destroy as much as possible.
+Bonus pay will be granted for the destruction of Overseer ACs.
 ";
 
 public static string Nest3 =
