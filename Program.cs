@@ -11,6 +11,7 @@ Chapter chapter5 = new Chapter ("loops");
 Chapter chapter6 = new Chapter ("Meth");
 Chapter chapter7 = new Chapter ("OOP");
 Chapter chapter8 = new Chapter ("");
+
 chapters.Add (chapter1);
 chapters.Add (chapter2);
 chapters.Add (chapter3);
@@ -19,6 +20,7 @@ chapters.Add (chapter5);
 chapters.Add (chapter6);
 chapters.Add (chapter7);
 chapters.Add (chapter8);
+
 
 List<Page> Vside = new List<Page> ();
 Page Vside1 = new Page(MyNotes.VariablesPageOne);
@@ -108,6 +110,8 @@ Page Nest3 = new Page (MyNotes.Nest3);
 chapter8.Pages.Add(Nest1);
 chapter8.Pages.Add(Nest2);
 chapter8.Pages.Add(Nest3);
+
+
 
 
 mybook.Chapters = chapters;
